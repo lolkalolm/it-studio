@@ -1,0 +1,37 @@
+.about-us-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 53px;
+color: $main-black;
+margin-bottom: 60px;
+}
+.about-us-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+color: $main-grey;
+margin-bottom: 42px;
+}
+.about-us-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+color: $accent;
+}
+.about-us-list-item{
+font-size: 16px;
+font-weight: 400;
+line-height: 25.36px;
+color: $main-black;
+}
+.about-us{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.about-us-img{
+    margin-bottom: 160px;
+}
+.about-us-list{
+    display: flex;
+    gap: 100;
+}

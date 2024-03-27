@@ -1,0 +1,25 @@
+.header-list-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+color: $main-white;
+}
+header{
+padding-top:40px;
+padding-bottom:40px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+.header-nav-list{
+    display: flex;
+    gap: 50px;
+    
+}
+.header-nav{
+    margin-left: auto;
+}
+.header-container{
+    display: flex;
+}

@@ -1,0 +1,42 @@
+.all-services-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 52.66px;
+color: $main-white;
+margin-bottom:78px;
+}
+.all-services-btn{
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: center;
+color: $main-white;
+}
+.all-services-list-title{
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+color: $main-black;
+margin-bottom: 30px;
+}
+.all-services-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 25.36px;
+color: $main-grey;
+margin-bottom: 47px;
+}
+.all-services-list-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+color: $accent;
+}
+.all-services{
+padding-top: 100px;
+padding-bottom: 85px;
+}
+.all-services-list{
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,31 @@
+.hero-text{
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+color: $main-white;
+margin-bottom: 20px;
+}
+.hero-title{
+
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+color: $main-white;
+margin-bottom: 50px;
+}
+.hero-btn{
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+color: $main-white;
+display: block;
+margin: 0 auto;
+}
+.hero{
+padding-top:219px ;
+padding-bottom: 335px;
+background-image :url("../../img/Rectangle.jpg");
+}
