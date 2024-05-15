@@ -3,7 +3,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 52.66px;
 color: $main-white;
-margin-bottom:78px;
+max-width: 540px;
 }
 .all-services-btn{
 font-size: 16px;
@@ -11,6 +11,11 @@ font-weight: 500;
 line-height: 19.5px;
 text-align: center;
 color: $main-white;
+border-radius: 30px;
+background-color:$accent ;
+width: 200px;
+height: 45px;
+display: block;
 }
 .all-services-list-title{
 font-size: 18px;
@@ -35,8 +40,14 @@ color: $accent;
 .all-services{
 padding-top: 100px;
 padding-bottom: 85px;
+background-image: linear-gradient(to bottom, rgb(80, 77, 194) 51%, rgb(255, 255, 255) 49%);
 }
 .all-services-list{
     display: flex;
     gap: 30px;
+}
+.all-services-title-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
 }

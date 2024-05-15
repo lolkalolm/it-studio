@@ -16,4 +16,44 @@ color: $main-grey;
 .video{
     padding-top: 70px;
     padding-bottom: 85px;
+    background-image: url("../img/video-bg.png");
+    background-repeat: no-repeat;
+}
+.video-wrap{
+    width: 970px;
+    height: 430px;
+    background-image: url("../img/Rectangle\ 2\ \(3\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.video-btn{
+    text-align: left;
+    padding: 20px 29px 20px 40px;
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    background: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
 }

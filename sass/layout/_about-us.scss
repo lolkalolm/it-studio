@@ -4,6 +4,7 @@ font-weight: 700;
 line-height: 53px;
 color: $main-black;
 margin-bottom: 60px;
+max-width: 424px;
 }
 .about-us-text{
 font-size: 16px;
@@ -11,18 +12,22 @@ font-weight: 400;
 line-height: 25px;
 color: $main-grey;
 margin-bottom: 42px;
+max-width: 489px;
 }
 .about-us-link{
 font-size: 16px;
 font-weight: 500;
 line-height: 19.5px;
 color: $accent;
+border-bottom: 1px solid $accent;
 }
 .about-us-list-item{
 font-size: 16px;
 font-weight: 400;
 line-height: 25.36px;
 color: $main-black;
+max-width: 104px;
+
 }
 .about-us{
     padding-top: 100px;
@@ -33,5 +38,28 @@ color: $main-black;
 }
 .about-us-list{
     display: flex;
-    gap: 100;
+    gap: 100px;
+    justify-content: center;
+}
+.about-us-img-div{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-wrap{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.about-us-list-text{
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 52.66px;   
+}
+
+.about-us-list-text-sek{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25.36px;
+    text-align: left;
 }

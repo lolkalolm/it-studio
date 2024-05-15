@@ -8,12 +8,14 @@ margin-bottom: 20px;
 }
 .hero-title{
 
-font-size: 16px;
+font-size: 48px;
 font-weight: 500;
-line-height: 20px;
-text-align: center;
+line-height: 64.36px;
 color: $main-white;
+margin: 0 auto;
 margin-bottom: 50px;
+max-width: 829px;
+text-align: center;
 }
 .hero-btn{
 font-size: 16px;
@@ -23,9 +25,13 @@ text-align: center;
 color: $main-white;
 display: block;
 margin: 0 auto;
+border-radius: 30px;
+background-color:$accent ;
+width: 200px;
+height: 45px;
 }
 .hero{
 padding-top:219px ;
 padding-bottom: 335px;
-background-image :url("../../img/Rectangle.jpg");
+background-image :url("../img/Rectangle.jpg");
 }

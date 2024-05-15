@@ -12,6 +12,8 @@ font-weight: 400;
 line-height: 25.36px;
 text-align: center;
 color: $main-grey;
+max-width: 750px;
+margin:0 auto;
 margin-bottom: 70px;
 }
 .projects-btn{
@@ -21,8 +23,19 @@ margin-bottom: 70px;
     text-align: center;
     color: $main-white;
     margin-top:50px;
+    border-radius: 30px;
+background-color:$accent ;
+width: 200px;
+height: 45px;
+display: block;
+margin: 0 auto;
 }
 .projects{
     padding-top: 100px;
     padding-bottom: 130px;
+}
+.projects-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
 }
